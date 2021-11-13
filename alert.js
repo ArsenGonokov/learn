@@ -40,7 +40,7 @@ let age = prompt('Сколько тебе мазафака лет?', '');
         alert ('Добро пожаловать мразишь!');
     }
 */
-
+/*
 let yearSeasons = prompt('Введите месяц', '');
     if (yearSeasons == 'сентябрь' || 'октябрь' || 'ноябрь' ) {
         alert ('Осень');
@@ -51,7 +51,61 @@ let yearSeasons = prompt('Введите месяц', '');
     } else if (yearSeasons == 'июнь' || 'июль' || 'август') {
         alert ('Лето');
     } else {
-        alert ('Тупой гринго');
-    }   
-    
+        alert ('Тупой гринго')
+    }    */
+
+    /*
+let yearSeasons = prompt('Введите месяц', '');
+    if (yearSeasons == 'сентябрь') {
+        alert('осень1');
+    } else if (yearSeasons == 'октябрь') {
+        alert('осень2');
+    } else if (yearSeasons == 'ноябрь') {
+        alert('осень3');
+    } else if (yearSeasons == 'декабрь') {
+        alert ('зима 1')
+    } else if (yearSeasons == 'январь') {
+        alert ('зима 2');
+    } else if (yearSeasons == 'февраль') {
+        alert ('зима 3');
+    } else if (yearSeasons == 'март') {
+        alert ('весна 1');
+    } else if (yearSeasons == 'апрель') {
+        alert ('весна 2');
+    } else if (yearSeasons == 'май') {
+        alert ('весна 3');
+    } else if (yearSeasons == 'июнь') {
+        alert ('лето 1');
+    } else if (yearSeasons == 'июль') {
+        alert ('лето 2');
+    } else if (yearSeasons == 'август') {
+        alert ('лето 3');
+    } else {
+        alert ('Ну ты тупой гринго!');
+    } 
+*/
+/*
+let hour = prompt('Введите время', '');
+    if (hour < 8 || hour > 17) {
+        alert ('Да ты тупой Я поглаяжу! Кто работает в это время?');
+    } else {
+        alert ('наши двери открыты!');
+    }
+*/
+
+switch (browser) {
+    case 'Edge':
+      alert( "You've got the Edge!" );
+      break;
+  
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+      alert( 'Okay we support these browsers too' );
+      break;
+  
+    default:
+      alert( 'We hope that this page looks ok!' );
+  }
 
