@@ -84,16 +84,16 @@ let yearSeasons = prompt('Введите месяц', '');
         alert ('Ну ты тупой гринго!');
     } 
 */
-/*
-let hour = prompt('Введите время', '');
+
+/* let hour = prompt('Введите время', '');
     if (hour < 8 || hour > 17) {
         alert ('Да ты тупой Я поглаяжу! Кто работает в это время?');
     } else {
         alert ('наши двери открыты!');
-    }
-*/
+    } */
 
-let yearSeasons = prompt('Введите число', '');
+
+/* let yearSeasons = prompt('Введите число', '');
 switch (yearSeasons = 4) {
     case 3:
         alert ('Good');
@@ -102,5 +102,17 @@ switch (yearSeasons = 4) {
         alert ('Bad');
         break;
         default:
-            alert ('GGWP');    
+        alert ('GGWP');    
+} */
+
+let a = 2+5;
+switch (a) {
+    case 3:
+        alert ('Gigant mazafaka');
+        break;
+    case 4:
+        alert ('Imbicil blya');
+        break;
+    default:
+        alert ('не ну тут я Прям не знаю!');
 }
