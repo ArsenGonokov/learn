@@ -93,19 +93,14 @@ let hour = prompt('Введите время', '');
     }
 */
 
-switch (browser) {
-    case 'Edge':
-      alert( "You've got the Edge!" );
-      break;
-  
-    case 'Chrome':
-    case 'Firefox':
-    case 'Safari':
-    case 'Opera':
-      alert( 'Okay we support these browsers too' );
-      break;
-  
-    default:
-      alert( 'We hope that this page looks ok!' );
-  }
-
+let yearSeasons = prompt('Введите число', '');
+switch (yearSeasons = 4) {
+    case 3:
+        alert ('Good');
+        break;
+    case 4:
+        alert ('Bad');
+        break;
+        default:
+            alert ('GGWP');    
+}
