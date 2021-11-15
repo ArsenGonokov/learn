@@ -105,7 +105,7 @@ switch (yearSeasons = 4) {
         alert ('GGWP');    
 } */
 
-let a = 2+5;
+/* let a = 2+5;
 switch (a) {
     case 3:
         alert ('Gigant mazafaka');
@@ -115,4 +115,22 @@ switch (a) {
         break;
     default:
         alert ('не ну тут я Прям не знаю!');
+} */
+
+let yearSeasons = prompt('введите месяц');
+switch (yearSeasons) {
+    case 'сентябрь':
+        alert ('осень1');
+        break;
+    case 'октябрь':
+        alert ('осень2');
+        break;
+    case 'ноябрь':
+        alert ('осень3');
+        break;
+    case 'декабрь':
+        alert ('зима1');
+        break;
+        default:
+            alert ('Ты вообще с этой планеты?');
 }
