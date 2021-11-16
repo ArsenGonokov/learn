@@ -117,7 +117,7 @@ switch (a) {
         alert ('не ну тут я Прям не знаю!');
 } */
 
-let yearSeasons = prompt('введите месяц');
+/* let yearSeasons = prompt('введите месяц');
 switch (yearSeasons) {
     case 'сентябрь':
         alert ('осень1');
@@ -133,4 +133,11 @@ switch (yearSeasons) {
         break;
         default:
             alert ('Ты вообще с этой планеты?');
+} */
+
+let user = {
+    name: 'Monstr',
+    age: '30'
 }
+alert ('user.name');
+alert ('userrrrrrr...age')
